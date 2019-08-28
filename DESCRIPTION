@@ -1,7 +1,7 @@
 Package: segmentr
 Type: Package
 Title: Segment Data With Maximum Likelihood
-Version: 0.1.1
+Version: 0.2.0
 Authors@R: c(
     person("Thales", "Mello", email = "thalesmello@gmail.com", role = c("aut", "cre", "cph")),
     person("Florencia", "Leonardi", role = c("aut", "cph", "ths")),
@@ -26,16 +26,16 @@ Depends: R (>= 2.10)
 Imports: Rcpp (>= 0.12.16), foreach, glue
 LinkingTo: Rcpp
 Suggests: testthat, doParallel, knitr, rmarkdown, tidyr, tibble, dplyr,
-        lubridate, magrittr, rdwd
-RoxygenNote: 6.1.0
+        lubridate, magrittr, rdwd, purrr
+RoxygenNote: 6.1.1
 VignetteBuilder: knitr
 Language: en-US
 URL: https://github.com/thalesmello/segmentr
 NeedsCompilation: yes
-Packaged: 2019-01-09 21:23:16 UTC; thalesmello
+Packaged: 2019-08-28 20:36:43 UTC; thales
 Author: Thales Mello [aut, cre, cph],
   Florencia Leonardi [aut, cph, ths],
   Bruno M. de Castro [cph],
   Deutscher Wetterdienst [cph]
 Repository: CRAN
-Date/Publication: 2019-01-17 16:50:03 UTC
+Date/Publication: 2019-08-28 21:00:02 UTC
